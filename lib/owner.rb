@@ -54,7 +54,6 @@ class Owner
   end
 
   def sell_pets
-    #binding.pry
     self.dogs.each do |dog|
       dog.mood = "nervous"
       dog.owner = nil
